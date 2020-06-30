@@ -1,0 +1,9 @@
+Name: 5.56 Light Machine Gun
+Type: Weapon
+Requires:
+  - Ammo: 5.56mm
+  - Data
+Resource:
+  Type: Ammo
+  Designation: 5.56mm
+  Amount: 1000

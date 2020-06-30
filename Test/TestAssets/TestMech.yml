@@ -1,0 +1,217 @@
+#               .----------------. 
+#              | .--------------. |
+#              | |              | |
+#      --      | | *GEN1        | |
+#  MGA|  |--*--| | *COMP1       | |
+#      --  RSJ | |              | |CORE
+#              | |              | |
+#              | |              | |
+#              | |              | |
+#              | '--------------' |
+#               '----------------' 
+#                        |
+#                     CHJ*
+#                        |
+#              ----------------------
+#           RHJ*        HIP         *LHJ
+#              |                    |
+#           RUL|                    |LUL
+#              |                    |
+#      RL   RKJ*                    *LKJ  LL
+#              |                    |
+#           RLL|                    |LLL
+#              |                    |
+#           RAJ*                    *LAJ
+#              |                    |
+#           --------            ----------
+#              RF                   LF
+Configuration:
+  Core:
+    abbr: CORE
+    MountedSystems:
+      - Name: Generator 1
+        Type: Generator
+        abbr: GEN1
+      - Name: Computer 1
+        Type: Computer
+        abbr: COMP1
+    Channels:
+      Transport: 21
+      Power: 21
+      Data: 21
+    Structure: 4
+    Armor: 2
+    Attached:
+      - Name: Core Hip Joint
+        abbr: CHJ
+        MountedSystems:
+          - Name: Core Hip Joint Actuator 
+            Type: Actuator
+        Channels:
+          Transport: 4
+          Data: 12
+          Power: 12
+        Structure: 6
+        Armor: 0
+        Attached:
+          - Name: Hip
+            abbr: HIP
+            Channels:
+              Transport: 4
+              Data: 12
+              Power: 12
+            Structure: 5
+            Armor: 1
+            Attached:
+              - Appendage: Right Leg
+                Components:
+                  - Name: Right Hip Joint
+                    abbr: RHJ
+                    MountedSystems:
+                      - Name: Right Hip Joint Actuator
+                        Type: Actuator
+                    Channels:
+                      Transport: 2
+                      Data: 6
+                      Power: 6
+                    Structure: 3
+                    Armor: 0
+                  - Name: Right Upper Leg
+                    abbr: RUL
+                    Channels:
+                      Transport: 2
+                      Data: 6
+                      Power: 6
+                    Structure: 3
+                    Armor: 1
+                    MountedSystems:
+                      - Name: Machine Gun Ammo
+                        Resource:
+                          Type: Ammo
+                          Designation: 5.56mm
+                          Amount: 1000
+                  - Name: Right Knee Joint
+                    abbr: RKJ
+                    MountedSystems:
+                      - Name: Right Knee Joint Actuator
+                        Type: Actuator
+                    Structure: 4
+                    Armor: 0
+                    Channels:
+                      Transport: 2
+                      Data: 6
+                      Power: 6
+                  - Name: Right Lower Leg
+                    abbr: RLL
+                    Channels:
+                      Data: 6
+                      Power: 6
+                    Structure: 4
+                    Armor: 1
+                  - Name: Right Ankle Joint
+                    abbr: RAJ
+                    MountedSystems:
+                      - Name: Right Ankle Joint Actuator
+                        Type: Actuator
+                    Structure: 5
+                    Armor: 0
+                    Channels:
+                      Data: 6
+                      Power: 6
+                  - Name: Right Foot
+                    abbr: RF
+                    MountedSystems:
+                      - Name: Right Foot Acoustic Sensor
+                        Type: Acoustic Sensor
+                    Channels:
+                      Data: 3
+                      Power: 3
+                    Structure: 6
+                    Armor: 1
+              - Appendage: Left Leg
+                Components:
+                  - Name: Left Hip Joint
+                    abbr: LHJ
+                    MountedSystems:
+                      - Name: Left Hip Joint Actuator
+                        Type: Actuator
+                    Channels:
+                      Transport: 2
+                      Data: 6
+                      Power: 6
+                    Structure: 3
+                    Armor: 0
+                  - Name: Left Upper Leg
+                    abbr: LUL
+                    Channels:
+                      Data: 6
+                      Power: 6
+                    Structure: 3
+                    Armor: 1
+                  - Name: Left Knee Joint
+                    abbr: LKJ
+                    MountedSystems:
+                      - Name: Left Knee Joint Actuator
+                        Type: Actuator
+                    Structure: 4
+                    Armor: 0
+                    Channels:
+                      Data: 6
+                      Power: 6
+                  - Name: Left Lower Leg
+                    abbr: LLL
+                    Channels:
+                      Data: 6
+                      Power: 6
+                    Structure: 4
+                    Armor: 1
+                  - Name: Left Ankle Joint
+                    abbr: LAJ
+                    MountedSystems:
+                      - Name: Left Ankle Joint Actuator
+                        Type: Actuator
+                    Structure: 5
+                    Armor: 0
+                    Channels:
+                      Data: 6
+                      Power: 6
+                  - Name: Left Foot
+                    abbr: LF
+                    MountedSystems:
+                      - Name: Left Foot Acoustic Sensor
+                        Type: Acoustic Sensor
+                    Channels:
+                      Data: 3
+                      Power: 3
+                    Structure: 6
+                    Armor: 1   
+      - Name: Right Shoulder Joint
+        abbr: RSJ
+        MountedSystems:
+          - Name: Right Shoulder Joint Actuator
+            Type: Actuator
+        Channels:
+          Transport: 2
+          Data: 3
+          Power: 3
+        Structure: 3
+        Armor: 0
+        Attached:
+          Name: Machine Gun Arm
+          abbr: MGA
+          MountedSystems:
+            - Name: 5.56 Light Machine Gun
+              Type: Weapon
+              Requires:
+                Ammo: 5.56mm
+              Resource:
+                Type: Ammo
+                Designation: 5.56mm
+                Amount: 1000
+          Channels:
+            Transport: 2
+            Data: 3
+            Power: 3
+          Structure: 3
+          Armor: 0
+  

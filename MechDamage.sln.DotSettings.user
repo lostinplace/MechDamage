@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=70f40f11_002D8d5c_002D43fd_002Dad53_002D4cded09f4240/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="All tests from UnitTest1.cs" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.BitMaskTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7a7160f0_002D73df_002D4e58_002Db123_002D29c0814408e4/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="BitMaskTest" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.BitVectorConstructionTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.TestParsingSimpleGenerator&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=92cadab1_002Dec07_002D4be6_002D9ad8_002D6ada23c9d35d/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="BitVectorConstructionTest" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.BitVectorConstructionTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.TestParsingSimpleGenerator&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.TestParsingAmmo&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::B4B707DF-BB3A-4D17-8FB0-7441985B8E19::.NETCoreApp,Version=v2.2::Tests.Tests.TestParsingMachineGun&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9cfe7b4_002Df20a_002D4679_002D86f9_002Dfdab79902dd4/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="Test1" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;ProjectFile&gt;B4B707DF-BB3A-4D17-8FB0-7441985B8E19/f:UnitTest1.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

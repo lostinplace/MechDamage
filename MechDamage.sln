@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MechDamage", "MechDamage\MechDamage.csproj", "{091930B1-C835-4FA1-B221-6E3727BA5111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B4B707DF-BB3A-4D17-8FB0-7441985B8E19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{091930B1-C835-4FA1-B221-6E3727BA5111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091930B1-C835-4FA1-B221-6E3727BA5111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091930B1-C835-4FA1-B221-6E3727BA5111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091930B1-C835-4FA1-B221-6E3727BA5111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B707DF-BB3A-4D17-8FB0-7441985B8E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B707DF-BB3A-4D17-8FB0-7441985B8E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B707DF-BB3A-4D17-8FB0-7441985B8E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B707DF-BB3A-4D17-8FB0-7441985B8E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

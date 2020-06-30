@@ -1,0 +1,5 @@
+Name: Machine Gun Ammo
+Resource:
+  Type: Ammo
+  Designation: 5.56mm
+  Amount: 1000
